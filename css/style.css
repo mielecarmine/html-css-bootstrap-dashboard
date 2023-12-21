@@ -41,3 +41,9 @@
 #main-top {
   height: 100px;
 }
+
+.sp-shadow {
+  padding: 1px 10px;
+  background-color: #55555581;
+  border-radius: 30px;
+}
