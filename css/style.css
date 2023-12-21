@@ -12,12 +12,32 @@
   background-color: #e5e5e5;
 }
 
-/* HEADER */
-
-#header {
-  height: 300px;
+.white {
+  color: white;
 }
+
+/* HEADER */
 
 .fa-bell {
   color: #ff9004;
+}
+
+/* MAIN */
+
+#sidebar {
+  width: 150px;
+  background-image: url("../img/sidebar-bg.png");
+  height: calc(100vh - 56px);
+}
+
+.icon {
+  width: 20px;
+}
+
+#main-body {
+  width: calc(100vw - 150px);
+}
+
+#main-top {
+  height: 100px;
 }
